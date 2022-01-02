@@ -1,37 +1,41 @@
-"use strict";
+'use strict';
 module.exports = {
   up: (queryInterface, Sequelize) => {
-    return queryInterface.createTable("users", {
+    return queryInterface.createTable('spaces', {
       id: {
         allowNull: false,
         autoIncrement: true,
         primaryKey: true,
-        type: Sequelize.INTEGER,
+        type: Sequelize.INTEGER
       },
-      name: {
+      title: {
         type: Sequelize.STRING,
-        allowNull: false,
+         allowNull: false
       },
-      email: {
-        type: Sequelize.STRING,
-        unique: true,
-        allowNull: false,
+      description: {
+        type: Sequelize.TEXT
       },
-      password: {
+      backgroundColor: {
         type: Sequelize.STRING,
-        allowNull: false,
+        defaultValue: "#ffffff"
+      },
+      color: {
+        type: Sequelize.STRING,
+        defaultValue: "#000000"
       },
       createdAt: {
         allowNull: false,
         type: Sequelize.DATE,
+        defaultValue: Sequelize.fn("now")
       },
       updatedAt: {
         allowNull: false,
         type: Sequelize.DATE,
-      },
+        defaultValue: Sequelize.fn("now")
+      }
     });
   },
   down: (queryInterface, Sequelize) => {
-    return queryInterface.dropTable("users");
-  },
+    return queryInterface.dropTable('spaces');
+  }
 };
