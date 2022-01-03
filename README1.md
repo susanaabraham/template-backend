@@ -243,12 +243,12 @@ You will be provided with a wireframe that shows an overview of the app along wi
 
 | Section                      | Max Points | Self assessed points | Assessor |
 | ---------------------------- | ---------- | -------------------- | -------- |
-| 0 Migrations, models & seeds | 10         | 0/8                  | 0/8      |
-| 1 Spaces list                | 6          | 0/5                  | 0/5      |
-| 2 Space details              | 7          | 0/7                  | 0/7      |
-| 3 Space created on signup    | 5          | 0/5                  | 0/5      |
-| 4 My space                   | 7          | 0/10                 | 0/10     |
-| 5 Posting stories            | 9          | 0/9                  | 0/9      |
-| 6 Editing your space         | 10         | 0/10                 | 0/10     |
-| 7 Finishing up               | 6          | 0/6                  | 0/6      |
-| Total                        | 60         | 0/60                 | 0/60     |
+| 0 Migrations, models & seeds | 10         | 8/8                  | 0/8      |
+| 1 Spaces list                | 6          | 5/5                  | 0/5      |
+| 2 Space details              | 7          | 7/7                  | 0/7      |
+| 3 Space created on signup    | 5          | 5/5                  | 0/5      |
+| 4 My space                   | 7          | 10/10                | 0/10     |
+| 5 Posting stories            | 9          | 9/9                  | 0/9      |
+| 6 Editing your space         | 10         | 10/10                | 0/10     |
+| 7 Finishing up               | 6          | 6/6                  | 0/6      |
+| Total                        | 60         | 60/60                | 0/60     |
